@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Neue', cursive;
+}
+
+body{
+    background-color: rgb(235, 237, 238);
+}
+
+/* Primeira parte */
+
+header{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#topo{
+    box-sizing: border-box;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    padding: 20px;
+}
+
+#titulo_header{
+    display: inline-block;
+    font-size: 50pt;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.img_header{
+    width: 50px;
+}
+
+input[type="text"]{
+    width: 80%;
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 22pt;
+    margin-left: 7%;
+    border: 2px solid #111;
+}
+
+#menu{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.btn_padrao{
+    width: 150px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 13pt;
+    font-weight: 700;
+    border: 2px solid #111;
+    background-color: #89FF64;
+}
+.btn_padrao:hover{
+    background-color: #111;
+    color: #89FF64;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#msg_alerta{
+    width: 250px;
+    height: 80px;
+    background-color: rgb(209, 0, 0);
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16pt;
+    box-shadow: 6px 3px 2px rgb(126, 126, 126);
+}
+
+/* Segunda parte */
+main{
+    width: 40%;
+    background-color: rgb(199, 199, 199);
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px rgb(126, 126, 126);
+    border: 1px solid #111;
+    display: none;
+}
+li{
+    list-style: none;
+}
+.padrao_item{
+    width: 30%;
+    background-color: #89FF64;
+    border-radius: 50px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    color: #111;
+    font-size: 16pt;
+    font-weight: 700;
+    border: 2px solid #111;
+}
+/* Terceira parte */
+
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 16pt;
+}
+a:hover{
+    color: #1b7500;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 10px;
+}
+.checkbox:hover{
+    cursor: pointer;
+    color: rgb(0, 243, 243);
+}
