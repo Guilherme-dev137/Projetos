@@ -1,0 +1,19 @@
+Analisar essas cores em uma página:
+#9200FA
+#DE19FA
+#BD5BFF
+
+Sites de inspiração:
+https://www.artmajeur.com/pt/
+https://onlinequadros.com.br/
+
+OBS.: Adicionar a animação por meio do javascript
+
+Slide show:
+https://www.treinaweb.com.br/blog/slideshow-apenas-com-css
+https://www.youtube.com/watch?v=BpzyuuPIEaQ
+
+Display grid:
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
+
+Impacto da Pandemia dentro das empresas e sua contribuição para o desemprego nas Mesorregiões do estado de Pernambuco

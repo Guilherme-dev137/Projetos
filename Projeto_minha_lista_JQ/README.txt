@@ -1,4 +1,4 @@
-Projeto desenvolvido com finalidade de praticar os conchecimentos adiquiridos com o estudo da técnologia JQUERY
+Projeto desenvolvido com finalidade de praticar os conhecimentos adquiridos com o estudo da tecnologia JQUERY
 Autor: Guilherme Gonçalves
 
 Funcionalidade:

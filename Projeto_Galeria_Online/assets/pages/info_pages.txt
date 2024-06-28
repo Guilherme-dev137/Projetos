@@ -1,0 +1,1 @@
+A página "opcao.html" será a única que ficara responsável por armazenar as outras páginas, fazer uma alteração por meio do script, mas por enquanto utilizar páginas separadas para adiantar o projeto;
