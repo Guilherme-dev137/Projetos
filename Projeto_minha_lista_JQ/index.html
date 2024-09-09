@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link href="./assets/images/icon_title.png" rel="icon" type="icon">
+    <link href="./assets/styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div id="topo">
+            <img class="img_header" src="./assets/images/carrinho_compras.png">
+            <h1 id="titulo_header">Lista de Compras</h1>
+            <img class="img_header" src="./assets/images/carrinho_compras.png">
+        </div>
+        <br><br>
+        <input id="input_lista" type="text" placeholder="Digite um Item">
+        <br><br>
+        <div id="menu">
+            <button id="registrar" class="btn_padrao">Registrar</button>
+            <button id="limpa" class="btn_padrao">Limpa</button>
+            <button id="limpa_lista" class="btn_padrao">Limpar Lista</button>
+        </div>
+
+        <div id="msg_alerta" style="display: none;"></div>
+    </header>
+    <br><br>
+
+    <main>
+
+        <h1>• Minha Lista •</h1>
+        <ul id="lista">
+        </ul>
+    </main>
+
+    <footer>
+        <a href="https://www.instagram.com/gsdesenvolvimento/" target="_blank">
+            Desenvolvido por Guilherme
+        </a>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./assets/scripts/script.js"> </script>
+</body>
+</html>
