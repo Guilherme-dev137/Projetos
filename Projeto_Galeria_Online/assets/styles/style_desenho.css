@@ -1,0 +1,138 @@
+*{
+    font-family: 'Comic Neue', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    padding: 10px;
+    border-bottom: 3px solid #BD5BFF;
+}
+
+#barra_nav{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 16pt;
+    cursor: pointer;
+}
+
+.opcao{
+    color: #000;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 1s;
+}
+.opcao:hover{
+    background-color: #d8d8d8;
+    padding: 10px;
+    border-radius: 10px;
+}
+.op2{
+    background-color: #d8d8d8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#logo{
+    color: #000;
+    text-decoration: none;   
+}
+
+#login{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: solid 1px #000;
+    font-size: 14pt;
+    background-color: #BD5BFF;
+    transition: 1s;
+}
+#login:hover{
+    padding: 20px;
+    font-size: 16pt;
+}
+a{
+    text-decoration: none;
+}
+
+/* Segunda Parte */
+
+main{
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.icon{
+    width: 100%;
+    height: 100px;
+    margin: 10px 0 10px 0;
+    background-color: #BD5BFF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: 1s;
+}
+.icon:hover{
+    padding: 20px;
+    cursor: pointer;
+    font-size: 14pt;
+}
+
+.title_main{
+    width: 40%;
+    border-bottom: 3px solid #BD5BFF;
+    display: inline-block;
+    margin: 10px 0 10px 0;
+}
+
+.nome_artista{
+    margin-left: 20px;
+}
+.info_artista{
+    margin-left: 10px;
+}
+
+/* Terceira Parte */
+
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: #9200FA;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 110px;
+}
+
+.link{
+    width: 20%;
+    height: 20px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    font-size: 10pt;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.para_links{
+    margin-left: 10px;
+}
